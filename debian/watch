@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/List-AllUtils/   .*/List-AllUtils-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

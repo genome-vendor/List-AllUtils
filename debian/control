@@ -1,0 +1,20 @@
+Source: liblist-allutils-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7), perl (>= 5.10) | libmodule-build-perl
+Build-Depends-Indep: perl (>= 5.8.9), liblist-moreutils-perl (>= 0.22)
+Maintainer: Randy Hancock <rhancock@>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/List-AllUtils/
+
+Package: liblist-allutils-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, perl (>= 5.8.9),
+  liblist-moreutils-perl (>= 0.22)
+Description: Combines List::Util and List::MoreUtils in one bite-sized package
+ Are you sick of trying to remember whether a particular helper is defined in
+ List::Util or List::MoreUtils? I sure am. Now you don't have to remember.
+ List::AllUtils will export all of the functions that either of those two
+ modules defines.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
